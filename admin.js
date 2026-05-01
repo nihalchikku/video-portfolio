@@ -1,5 +1,5 @@
 const container = document.getElementById("messages");
-const API = "http://127.0.0.1:3000";
+const API = "https://video-portfolio-backend-y8hf.onrender.com";
 
 const token = localStorage.getItem("token");
 
