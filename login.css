@@ -1,38 +1,49 @@
 body {
+  margin: 0;
+  font-family: Arial, sans-serif;
   background: #0f172a;
-  font-family: Arial;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  color: white;
 }
 
-.login-box {
+.container {
   background: #1e293b;
-  padding: 30px;
-  border-radius: 10px;
-  width: 300px;
+  padding: 20px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 350px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+h2 {
   text-align: center;
+  margin-bottom: 20px;
+  color: white;
 }
 
 input {
   width: 100%;
+  padding: 12px;
   margin: 10px 0;
-  padding: 10px;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 button {
   width: 100%;
-  padding: 10px;
-  background: #38bdf8;
+  padding: 12px;
+  margin-left: 10px;
+  background: #3b82f6;
   border: none;
-  color: black;
-  cursor: pointer;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
 }
 
-#error {
-  color: red;
+@media (max-width: 480px) {
+  .container {
+    padding: 15px;
+  }
 }
