@@ -2,7 +2,7 @@ async function login() {
   const username = document.getElementById("username").value;
   const password = document.getElementById("password").value;
 
-  const res = await fetch("http://127.0.0.1:3000/login", {
+  const res = await fetch("https://video-portfolio-backend-y8hf.onrender.com/login", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
