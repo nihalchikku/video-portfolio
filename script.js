@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const message = form.querySelector("textarea[name='message']").value;
 
     try {
-      await fetch("http://localhost:3000/contact", {
+      await fetch("https://video-portfolio-backend-y8hf.onrender.com/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
